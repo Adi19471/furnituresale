@@ -1,0 +1,108 @@
+body {
+    background-color: lightgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container .line {
+    width: 150px;
+    height: 7px;
+    color: rgb(166, 114, 18);
+    background-color: rgb(133, 32, 32);
+    margin: 0px auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.bg-golg {
+    background-color: #FFFDD0;
+}
+
+#six {
+    background-color: 20px solid navy;
+}
+
+.card-data:hover {
+    margin-top: 20px;
+    border: 2px solid black;
+}
+
+.card-zoom {
+    border-radius: 50%;
+}
+
+.card-zoom:hover {
+    margin-top: 20px;
+    border: 2px solid black;
+    zoom: 2px;
+    width: fit-content;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+
+
+/* three images  */
+
+.img-three {
+    width: 500px;
+    height: 350px;
+    border: 2px solid black;
+    box-shadow: 0px 0px 10px black;
+}
+
+
+/* 2 images a11 ,a12 chaimge */
+
+.img-threess {
+    width: 620px;
+    height: 400px;
+    border: 2px solid black;
+    box-shadow: 0px 0px 10px black;
+}
+
+.last-img {
+    width: 400px;
+    height: 200px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.top-selling {
+    width: 450px;
+    height: 200px;
+}
+
+
+/* three images normal */
+
+#threeimages-rotate {
+    transition: width 2s, height 2s, transform 2s;
+}
+
+#threeimages-rotate:hover {
+    transform: rotate(180deg);
+}
+
+#shop {
+    border-radius: 5px;
+    width: 280px;
+    height: 300px;
+}
+
+
+/* carsole
+
+
+*/
+
+
+/* custmer-speek */
+
+#custmer-speek {
+    width: 350px;
+    height: 200px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px black;
+}
